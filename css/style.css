@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+body {
+    width: 100%;
+    background-color: black;
+
+    font-family: 'Asap', sans-serif;
+    color: white;
+}
+header {
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.score {
+    display:flex ;
+    flex-direction:column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 580px;
+    margin-top: 20px;
+
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+
+    font-size: 30px;
+}
+
+#user{
+    position: absolute;
+    left: -25px;
+
+    background-color: blueviolet;
+}
+
+#computer {
+    position: absolute;
+    right: -35px;
+
+    background-color: blueviolet;
+}
+
+.points {
+    height: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.results {
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.choices {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+
+    margin-top: 40px;
+    left: 200px;
+}
+
+.choice {
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+
+    border:3px solid white;
+    border-radius: 50%;
+
+}
+
+#rock {
+width: 250px;
+align-self: center;
+}
+
+#paper {
+    width: 250px;
+    align-self: center;
+}
+
+.scissors {
+    width: 125px;
+    align-self: center;
+}
+
+#plays {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    font-size: 20px;
+    font-weight: bold;
+}

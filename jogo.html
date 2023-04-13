@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="./css/reset.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jogo</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Pedra Papel Tesoura</h1>
+    </header>
+    <div class="score">
+        <div id="user" class="jogadores">User</div>
+        <div id="computer" class="jogadores">Comp</div>
+        <div class="points">
+            <span id="userScore">0</span>:<span id="computerScore">0</span>
+        </div>
+    </div>
+    <div class="results">
+    <p> Papel vence pedra. Você ganhou!</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="rock">  
+            <img src="./svg/raised-fist-PhotoRoom.png-PhotoRoom - Copia.png" alt="mão fechada" id="rock">
+        </div>
+        <div class="choice" id="paper" >
+            <img src="./svg/raised-hand-PhotoRoom.png-PhotoRoom.png" alt="mão aberta" id="paper">
+        </div>
+        <div class="choice" id="scissors" >
+            <img src="https://cdn-0.emojis.wiki/emoji-pics/facebook/victory-hand-facebook.png" alt="mão formando um V" class= "scissors" id="scissors">
+        </div>
+    </div>
+    <p id="plays">Faça a sua jogada.</p>
+    <script src="jogo.js" charset="UTF-8"></script>
+</body>
+</html>
